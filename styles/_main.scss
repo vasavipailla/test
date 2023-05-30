@@ -160,7 +160,7 @@ button:hover {
     background: url(../images/Rectangle.png);
 }
 
-.background1 {
+.background {
     width: 540px;
     height: 371px;
     align-items: center;
@@ -225,3 +225,16 @@ button:hover {
 .book:hover {
     background-color:rgb(119, 119, 138);
 }
+
+.container5 {
+    width:100%;
+    max-width: 1770px;
+    height:100%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background: url(../images/Rectangle1.png);
+}
+
+
