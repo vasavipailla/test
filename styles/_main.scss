@@ -103,6 +103,71 @@ button:hover {
     color: #FFFFFF;
 }
 
+.container8{
+    width:100%;
+    max-width: 1770px;
+    height:100%;
+    min-height: 685px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background: url(../images/Rectangle4.png);
+}
+
+.heading3 {
+    width: 288px;
+    height: 26px;
+    font-family:$main-font2;
+    font-style: $main-font-style;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+     display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.text4 {
+    width: 560px;
+    height: 158px;
+    left: 330px;
+    top: 288px;
+    font-family:$main-font1;
+    font-style:$main-font-style;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.6px;
+    color: #E8E8E8;
+
+}
+
+.places{
+    width: 228px;
+    height: 63px;
+    font-family:$main-font2;
+    font-style: $main-font-style;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+}
+
 .container3 {
     width:100%;
     max-width: 1773px;
@@ -113,6 +178,11 @@ button:hover {
     justify-content: center;
     align-items: center;
     flex-direction:row;
+}
+
+.img {
+    padding:10px;
+    margin-left: 30px;
 }
 
 .search {
