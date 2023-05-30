@@ -45,9 +45,12 @@ button {
     border:white;
     outline: none;
     letter-spacing: 1px;
-    cursor: pointer;
     margin: 1px;
     color: white;
+}
+
+button:hover {
+    background-color: rgb(107, 107, 156);
 }
 
 .container2 {
@@ -133,7 +136,7 @@ button {
     color:blue;
   }
 
-  .text {
+.text {
     width: 230px;
     height: 26px;
     font-family: 'Aleo';
@@ -145,3 +148,80 @@ button {
     text-align: center;
     color: #E8E8E8;
   }
+
+.container4 {
+    width:100%;
+    max-width: 1770px;
+    height:100%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background: url(../images/Rectangle.png);
+}
+
+.background1 {
+    width: 540px;
+    height: 371px;
+    align-items: center;
+    background: #232323;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    
+}
+
+.spain {
+    width: 80px;
+    height: 26px;
+    font-family:$main-font1;
+    font-style: $main-font-style;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    color: #E8E8E8;
+    margin: 30px;
+}
+
+.grand {
+    width: 241px;
+    height: 26px;
+    font-family: $main-font1;
+    font-style: $main-font-style;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin:30px;
+}
+
+.para {
+    width: 508px;
+    height: 78px;
+    font-family: $main-font1;
+    font-style: $main-font-style;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #E8E8E8;
+    margin: 30px;
+}
+
+.book {
+    width: 228px;
+    height: 63px;
+    font-family: $main-font2;
+    font-style: $main-font-style;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 30px;
+}
+
+.book:hover {
+    background-color:rgb(119, 119, 138);
+}
