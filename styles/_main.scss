@@ -147,7 +147,7 @@ button:hover {
 }
 
 .places{
-    width: 228px;
+    width: 270px;
     height: 63px;
     font-family:$main-font2;
     font-style: $main-font-style;
@@ -177,7 +177,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction:row;
+    flex-direction:column;
 }
 
 .img {
@@ -194,6 +194,10 @@ button:hover {
     flex-direction: column;
 }
 
+.icon_text {
+    display: flex;
+    margin-left:50px;
+}
 
 
   .icon1 {
@@ -313,6 +317,10 @@ button:hover {
 
 .book:hover {
     background-color:rgb(119, 119, 138);
+}
+
+.fa-quote-left {
+    color:blue;
 }
 
 .container5 {
