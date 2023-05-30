@@ -237,4 +237,70 @@ button:hover {
     background: url(../images/Rectangle1.png);
 }
 
+.container6 {
+    width:100%;
+    max-width: 1770px;
+    height:100%;
+    min-height: 731px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(../images/Rectangle2.png);
+}
+
+.tourist{
+    width: 390px;
+    height: 26px;
+    font-family: $main-font2;
+    font-style: $main-font-style;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 50px;
+}
+
+.background1 {
+    width:100%;
+    max-width: 668px;
+    height: 287px;
+    align-items: center;
+    background: #333333;
+}
+
+.tourist_say {
+    display: flex;
+    
+}
+
+.heading1 {
+    width: 150px;
+    height: 26px;
+    font-family: $main-font1;
+    font-style: $main-font-style;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FEFEFE;
+    margin: 30px;
+
+}
+
+.text1 {
+    width: 581px;
+    height: 165px;
+    font-family: $main-font2;
+    font-style: $main-font-style;
+    font-weight: 400;
+    font-size:12px;
+    line-height: 26px;
+    color: #FEFEFE;
+    margin: 30px;
+}
+
 
