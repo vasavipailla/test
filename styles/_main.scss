@@ -102,21 +102,46 @@ button {
     height:100%;
     min-height: 340px;
     background: #333333;
-}
-
-.arc {
     display: flex;
-
+    justify-content: center;
     align-items: center;
+    flex-direction:row;
 }
-.box {
-    margin-top: 50px;
-    width: 777px;
-    height: 95px;
-    background: rgba(0, 0, 0, 0.0001);
-    mix-blend-mode: normal;
-    opacity: 0.5;
-    border: solid 5px #000;
-    border-color: #000 transparent transparent transparent;
-    border-radius:50px
+
+.search {
+    padding: 20px;
+    width: 353px;
+    height: 163px;
+  }
+
+  .icon1 {
+    width: 99px;
+    height: 99px;
+    color: blue;
+    align-items: center;
+  }
+  
+  .icon2{
+    width: 62px;
+    height: 63px;
+    color:red;
+  }
+
+  .icon3 {
+    width: 99px;
+    height: 99px;
+    color:blue;
+  }
+
+  .text {
+    width: 230px;
+    height: 26px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    display: flex;
+    text-align: center;
+    color: #E8E8E8;
   }
