@@ -235,7 +235,7 @@ button:hover {
     min-height: 700px;
     display: flex;
     align-items: center;
-    justify-content:center;
+    // justify-content:center;
     background: url(../images/Rectangle.png);
 }
 
@@ -246,7 +246,17 @@ button:hover {
     background: #232323;
     mix-blend-mode: normal;
     opacity: 0.9;
-    margin-right:60px;
+    margin-left: 50px;
+}
+
+.background_two {
+    width: 540px;
+    height: 371px;
+    align-items: center;
+    background: #232323;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    margin-right: 50px;
 }
 
 .spain {
@@ -312,7 +322,8 @@ button:hover {
     min-height: 700px;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    // justify-content:space-evenly;
+    justify-content: flex-end;
     background: url(../images/Rectangle1.png);
 }
 
