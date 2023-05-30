@@ -1,0 +1,72 @@
+$main-font1: 'Josefin Sans';
+$main-font2: 'Aleo';
+$main-font-style:normal;
+
+.container7 {
+    width:100%;
+    max-width: 1770px;
+    height:100%;
+    min-height: 268px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #232323;
+}
+
+.heading2 {
+    width: 193px;
+    height: 26px;
+    font-family:$main-font1;
+    font-style:$main-font-style;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.text2 {
+    width: 196px;
+    height: 26px;
+    left: 0px;
+    top: 34px;
+    font-family:$main-font1;
+    font-style:$main-font-style;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+
+}
+
+.footer_icons{
+    display: flex;
+    margin-top: 10px;
+}
+
+.footer_icon {
+    width: 39px;
+    height: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #E8E8E8;
+}
+
+.fa-linkedin-in {
+    color: blue;
+}

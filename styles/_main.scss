@@ -53,6 +53,10 @@ button:hover {
     background-color: rgb(107, 107, 156);
 }
 
+.fa-magnifying-glass {
+    margin:10px;
+}
+
 .container2 {
     width:100%;
     max-width: 1770px;
@@ -115,26 +119,31 @@ button:hover {
     padding: 20px;
     width: 353px;
     height: 163px;
-  }
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 
   .icon1 {
     width: 99px;
     height: 99px;
     color: blue;
     align-items: center;
-  }
+}
   
   .icon2{
     width: 62px;
     height: 63px;
     color:red;
-  }
+}
 
   .icon3 {
     width: 99px;
     height: 99px;
     color:blue;
-  }
+}
 
 .text {
     width: 230px;
@@ -156,7 +165,7 @@ button:hover {
     min-height: 700px;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content:center;
     background: url(../images/Rectangle.png);
 }
 
@@ -167,7 +176,7 @@ button:hover {
     background: #232323;
     mix-blend-mode: normal;
     opacity: 0.9;
-    
+    margin-right:60px;
 }
 
 .spain {
@@ -277,6 +286,9 @@ button:hover {
     
 }
 
+.quote {
+    display: flex;
+}
 .heading1 {
     width: 150px;
     height: 26px;
